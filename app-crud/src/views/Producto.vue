@@ -2,6 +2,7 @@
 import { onMounted, ref } from 'vue';
 
  const productos = ref([])
+ 
  const producto = ref({})
 onMounted(() =>{
     productos.value.push(
